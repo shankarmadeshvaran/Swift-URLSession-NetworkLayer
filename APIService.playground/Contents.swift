@@ -114,7 +114,6 @@ struct APIClient {
 
 
 //GET METHOD EXAMPLE
-
 // MARK: - WelcomeElement
 struct User: Codable {
     let id: Int
@@ -161,7 +160,6 @@ APIClient().perform(getRequest) { (result) in
 
 
 //POST METHOD EXAMPLE
-
 struct Post: Codable {
     let userID, id: Int
     let title, body: String
@@ -222,6 +220,3 @@ extension Dictionary {
 }
 
 PlaygroundPage.current.needsIndefiniteExecution = true
-
-
-
